@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8"/>
+        <title>BananaCoding | Reaction App</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/ico"/>
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <div class="main">
+            <div class="header">
+                <h1>Juego Reaction Time</h1>
+            </div>
+
+            <div class="navigation">
+                <h2>Cónoce tu tiempo de reacción</h2>
+                <p class="information">Clickea sobre el area luego de que esta cambie a <span>Verde</span></p>
+            </div>
+            <div class="canvas-parent">
+                <canvas id="canvas"></canvas>
+            </div>
+            <div class="score">
+                <div class="section-1">
+                    <button id="start" type="button">Start</button>
+                </div>
+                <div class="section-2">
+                    <p>Tu tiempo:</p>
+                    <p id="time-text">Sin tiempo</p>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+    <script src="main.js"></script>
+
+</html>
